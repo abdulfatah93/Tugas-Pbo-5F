@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package java_2h;
+package TUGAS;
 
 import java.sql.Driver;
 import java.sql.DriverManager;
@@ -29,7 +29,7 @@ import net.sf.jasperreports.view.JasperViewer;
 
 public class configDB {
     
-    private String url = "jdbc:mysql://localhost:3306/dbfilm";
+    private String url = "jdbc:mysql://localhost:3306/uas";
     private String user ="root";
     private String pass = "";
     

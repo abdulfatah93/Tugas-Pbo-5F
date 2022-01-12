@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package java_2h;
+package TUGAS;
 
 import java.sql.SQLException;
 
@@ -11,12 +11,12 @@ import java.sql.SQLException;
  *
  * @author ASUS
  */
-public class Java_2H {
+public class tugas_uas {
 
     public static void main(String[] args) throws SQLException {
-    String[] V ={"K01","Gateng Serigala","Romatis","2015","indo","10"};
-        configDB praktikum =new configDB();
-        System.out.println(praktikum.getValueFieldArray(V));
+    String[] V ={"1","abdul fatah","banjarbaru"};
+        configDB uas =new configDB();
+        System.out.println(uas.getValueFieldArray(V));
        
       
     }
